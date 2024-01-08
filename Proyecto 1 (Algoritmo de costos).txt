@@ -1,0 +1,40 @@
+Algoritmo de costos
+
+Solicitar al usuario las siguientes variables
+definir nombre_producto como caracter 
+definir precio del producto como numerico
+definir cupon de descuento del producto como numerico
+definir IVA como numerico
+definir destino como caracter
+definir peso como numerico
+definir costo de envío como numerico
+definir costo final como numerico
+
+nombre_producto <- leerDesdeTeclado()
+precio <- leerDesdeTeclado()
+cantidad <- leerDesdeTeclado()
+
+subtotal <- precio * cantidad
+
+descuento <- 0
+
+si cupon de descuento = 10% entonces
+	descuento <- subtotal * 0.1
+si cupon de descuento = 20% entonces
+	descuento <- subtotal * 0.2
+si cupon de descuento = 30% entonces
+	descuento <- subtotal * 0.3
+  
+IVA
+costo con IVA <- costo con descuento * 1.12
+
+destino <- leerDesdeTeclado
+peso en kg <- leerDesdeTeclado
+
+calcular costo de envio
+costo con envio <- costo con IVA * 1.10
+
+definir pago como numerico
+pago <- leerDesdeTeclado
+
+  
